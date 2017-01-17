@@ -1,4 +1,4 @@
-# VMovier
+# wx-VMovier
 WordPress 微信小程序  VMovier
 
 ### 配置信息
