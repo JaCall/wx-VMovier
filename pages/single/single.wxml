@@ -1,0 +1,42 @@
+<!--pages/single/single.wxml-->
+<!--content-->
+<view class="content">
+
+
+<!--single-->
+<view class="single">
+
+    <view wx:if="{{Post.has_thumbnail}}" class="_thumbnail" style="background-image:url('{{Post.thumbnail}}')"></view>
+
+    <view class="single_head">
+        <view class="_title">{{Post.title}}</view>
+        <view class="_date">{{Post.cateArr}} / {{Post.custom_fields.star_value}}分</view>
+    </view>
+
+    <view class="single_content">
+        <view class="theCon">{{Post.content}}</view>
+    </view>
+
+
+
+    <view class="the_end">
+        <view class="text">
+            <text>END</text>
+        </view>
+    </view>
+
+
+    <!--single_author--
+    <view class="single_author">
+        <view class="_name">{{Post.author.name}}</view>
+        <view class="_description">{{Post.author.description}}</view>
+    </view>
+    !--/single_author-->
+
+
+</view>
+<!--/single-->
+
+
+</view>
+<!--/content-->

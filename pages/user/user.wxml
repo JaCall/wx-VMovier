@@ -1,0 +1,31 @@
+<!--pages/user/user.wxml-->
+<!--content-->
+<view class="content">
+
+    <!--userInfo-->
+    <view class="userInfo">
+
+        <view class="_avatar"><image src="{{userInfo.avatarUrl}}"></image></view>
+        <view class="_nickName">
+            <view>
+                {{userInfo.nickName}}
+                <image src="../images/sex_{{gender}}.png"></image>
+            </view>
+        </view>
+        <view class="_city">
+            {{userInfo.province}} · {{userInfo.city}}
+        </view>
+
+        
+
+
+
+
+
+    </view>
+    <!--/userInfo-->
+
+
+
+</view>
+<!--/content-->

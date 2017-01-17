@@ -1,0 +1,35 @@
+/* pages/channel/channel.wxss */
+
+.channel_loop{
+    background-color:#2D2D2D;
+    
+}
+
+
+.channel_list{
+}
+
+.channel_loop{
+    opacity: 1;
+    width: 50%;
+    float: left;
+    text-align: center;
+    height:150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: 0.3s;
+}
+.channel_loop text{
+    line-height: 150px;
+    color:#666;
+    /*display: none;*/
+}
+.channel_loop.hover{
+    opacity: 0.8;
+}
+
+
+
+
+

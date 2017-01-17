@@ -1,0 +1,31 @@
+<!--pages/category/category.wxml-->
+<!--content-->
+<view class="content">
+
+
+<!--category_list-->
+<view class="category_list clearfix">
+
+    <!--item_loop-->
+    <import src="../template/itemtpl"/>
+    <view class="item">
+        <block wx:for="{{categoryData}}" wx:key="{{index}}" wx:for-item="Item">
+            <template is="item_loop" data="{{Item}}" />
+        </block>
+    </view>
+    <!--/item_loop-->
+
+    <view class="isloading" hidden="{{isloading}}">
+        数据加载中...
+    </view>
+    <view class="nomore" hidden="{{nomore}}">
+        {{moretext}}
+    </view>
+
+
+</view>
+<!--/category_list-->
+
+
+</view>
+<!--/content-->

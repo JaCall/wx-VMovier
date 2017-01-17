@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/single/single",
+    "pages/subject_single/subject_single",
+    "pages/subject/subject",
+    "pages/category/category",
+    "pages/channel/channel",
+    "pages/user/user",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#151515",
+    "navigationBarTitleText": "V电影_小程序",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "backgroundColor":"#151515",
+    "color":"#999",
+    "selectedColor":"#2689FF",
+    "borderStyle":"black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "pages/images/icon/icon_11.png",
+      "selectedIconPath": "pages/images/icon/icon_12.png",
+      "text": "最新"
+    },{
+      "pagePath": "pages/channel/channel",
+      "iconPath": "pages/images/icon/icon_21.png",
+      "selectedIconPath": "pages/images/icon/icon_22.png",
+      "text": "频道"
+    }, {
+      "pagePath": "pages/subject/subject",
+      "iconPath": "pages/images/icon/icon_31.png",
+      "selectedIconPath": "pages/images/icon/icon_32.png",
+      "text": "专题"
+    },{
+      "pagePath": "pages/user/user",
+      "iconPath": "pages/images/icon/icon_51.png",
+      "selectedIconPath": "pages/images/icon/icon_52.png",
+      "text": "我的"
+    }]
+  }
+}

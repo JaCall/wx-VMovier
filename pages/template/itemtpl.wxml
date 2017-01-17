@@ -1,0 +1,22 @@
+<template name="item_loop">
+    <view class="item_loop" style="background-image:url('{{Item.thumbnail}}')" hover-class="hover" id="{{Item.id}}" bindtap="gotoSingle">
+        <view class="item_body">
+            <view class="_text">
+                <text class="_title">{{Item.title}}</text>
+                <text class="_bottom">{{Item.cateArr}} / {{Item.custom_fields.video_time_value}}</text>
+            </view>
+        </view>
+    </view>
+</template>
+
+<template name="subject_loop">
+    <view class="subject_loop" style="background-image:url('{{Item.thumbnail}}')" hover-class="hover" id="{{Item.id}}" bindtap="gotoSubject">
+        <view class="item_body">
+            <view class="_text">
+                <text class="_top">专题</text>
+                <text class="_title">{{Item.title}}</text>
+                <!--<text class="_bottom">{{Item.cateArr}} / {{Item.custom_fields.video_time_value}}</text>-->
+            </view>
+        </view>
+    </view>
+</template>

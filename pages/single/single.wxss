@@ -1,0 +1,58 @@
+/* pages/single/single.wxss */
+
+
+
+Page{
+  background: #FFF;
+}
+
+
+
+._thumbnail{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:350rpx;
+}
+
+
+
+.single_head{
+    padding:20px;text-align: center;
+}
+
+._title{
+    font-size: 18px;line-height: 26px;margin-bottom: 5px;
+}
+._date{
+    font-size: 12px;color: #999;line-height: 16px;
+}
+
+
+.single_excerpt{
+    color: #666;
+    padding:0 20px;
+    font-size: 14px;
+    line-height: 160%;
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+
+.single_content{
+    overflow: hidden;
+    color: #666;
+    padding:0 20px 30px;
+    font-size: 14px;
+    line-height: 160%;
+}
+
+.single_author{
+    padding: 10px 20px;border-top: 1px #EFEFEF solid;border-bottom: 1px #EFEFEF solid;
+}
+.single_author ._name{
+    font-size: 18px;line-height: 30px;
+}
+
+.single_author ._description{
+    font-size: 12px;line-height: 20px;color:#999;
+}

@@ -1,0 +1,49 @@
+<!--pages/subject_single/subject_single.wxml-->
+<!--content-->
+<view class="content">
+
+    <!--subject_single-->
+    <view class="subject_single">
+
+        <view wx:if="{{Subject.has_thumbnail}}" class="_thumbnail" style="background-image:url('{{Subject.thumbnail}}')"></view>
+
+        <view class="single_head">
+            <view class="_title">{{Subject.title}}</view>
+            <view class="_date">{{Subject.date}}</view>
+        </view>
+        <view class="single_excerpt">{{Subject.subject_excerpt}}</view>
+
+    </view>
+    <!--/subject_single-->
+
+
+    <!--subject_list-->
+    <view class="subject_list">
+
+        <!--item_loop-->
+        <block wx:for="{{SubjectData}}" wx:key="{{index}}" wx:for-item="Item">
+        <view class="item_loop" style="background-image:url('{{Item.thumbnail}}')" hover-class="hover" id="{{Item.id}}" bindtap="gotoSingle">
+            <view class="item_content">
+                <view class="_content">
+                    <text class="_title">{{Item.title}}</text>
+                    <text class="_bottom">{{Item.cateArr}} / {{Item.custom_fields.video_time_value}}</text>
+                </view>
+            </view>
+        </view>
+        </block>
+        <!--/item_loop-->
+
+    </view>
+    <!--/subject_list-->
+
+
+    <view class="the_end">
+        <view class="text">
+            <text>END</text>
+        </view>
+    </view>
+
+
+
+</view>
+<!--/content-->

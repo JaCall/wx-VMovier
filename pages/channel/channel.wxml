@@ -1,0 +1,22 @@
+<!--pages/channel/channel.wxml-->
+<!--content-->
+<view class="content">
+
+
+<!--channel_list-->
+<view class="channel_list clearfix">
+
+    <!--channel_loop-->
+    <block wx:for="{{channelData}}">
+    <view class="channel_loop" style="background-image:url('{{item.thumbnail}}')" id="{{item.id}}" hover-class="hover" bindtap="gotoCate">
+        <text hidden="{{item.hiddenTitle}}">[{{item.title}}]</text>
+    </view>
+    </block>
+    <!--/channel_loop-->
+
+</view>
+<!--/channel_list-->
+
+
+</view>
+<!--/content-->

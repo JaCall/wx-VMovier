@@ -1,0 +1,79 @@
+/* pages/subject_single/subject_single.wxss */
+
+
+Page{
+  background: #FFF;
+}
+
+
+
+/*subject_single*/
+.subject_single{
+
+}
+
+._thumbnail{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:350rpx;
+}
+
+.single_head{
+    padding:20px;text-align: center;
+}
+
+._title{
+    font-size: 18px;line-height: 26px;margin-bottom: 5px;
+}
+._date{
+    font-size: 12px;color: #999;line-height: 16px;
+}
+
+.single_excerpt{
+    color: #666;
+    padding:0 20px;
+    font-size: 14px;
+    line-height: 160%;
+    text-indent: 2em;
+}
+
+
+
+
+.subject_list{
+    padding:20px 20px;
+}
+
+.subject_list .item_loop{
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.subject_list .item_loop .item_content{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.subject_list .item_loop.hover .item_content{
+  background: rgba(255, 255, 255, 0.2);
+}
+.item_content ._content{
+  color:#FFF;
+  padding: 20px;
+}
+.item_content ._content ._title{
+  display:block;
+  font-size:18px;
+  line-height:22px;
+  margin-bottom:5px;
+}
+.item_content ._content ._bottom{
+  font-size: 12px;
+}
+
+
+
+
+
+
+

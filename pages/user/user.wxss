@@ -1,0 +1,39 @@
+/* pages/user/user.wxss */
+
+.userInfo{
+    text-align: center;
+    padding:20% 0;
+}
+
+._avatar{
+    margin-bottom: 20px;
+}
+._avatar image{
+    width:220rpx;
+    height:220rpx;
+    border-radius: 50%;
+}
+._nickName{
+    color: #FFF;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+._nickName view{
+    display: inline-block;
+    padding-right: 15px;
+    position: relative;
+}
+._nickName view image{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right:0;
+    top:50%;
+    margin-top: -6px;
+}
+
+._city{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+}
