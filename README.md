@@ -1,10 +1,10 @@
 # VMovier
 WordPress 微信小程序  VMovier
 
-## 配置信息
+### 配置信息
 
 
-在 app.js 中的 
+API地址在 app.js 中的 
 
 
 ApiUrl    : "http://movieapi.theme.shejiwo.net/api/",
@@ -17,7 +17,7 @@ ApiUrl    : "http://movieapi.theme.shejiwo.net/api/",
 
 
 
-## 界面截图
+### 界面截图
 
 <img src="http://theme.shejiwo.net/movie/wp-content/uploads/2017/01/IMG_2938-576x1024.png">
 
